@@ -1,0 +1,83 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #edede9;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5ebe0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  color: #000000;
+  line-height: 1.4;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+code {
+  font-family: "Courier New", monospace;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border-radius: 10px 10px 0 0;
+}
+
+/* Ingredient List Styles */
+.ingredients {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Instruction Section Styles */
+.instructions {
+  margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 0;
+  }
+}
